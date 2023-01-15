@@ -36,7 +36,7 @@ public class Hooks {
 			
 			TakesScreenshot ts = (TakesScreenshot) driver;
 			File source = ts.getScreenshotAs(OutputType.FILE);
-			File dest = new File("C:\\Users\\lenovo\\eclipse-workspace\\Adactin_Prct\\Screenshots\\Failed_Cases"); 
+			File dest = new File("C:\\Users\\sudha\\eclipse-workspace\\Adactin_Prct\\Screenshots"); 
 			FileUtils.copyToDirectory(source, dest);
 			
 		}

@@ -12,7 +12,7 @@ public class Config_Reader {
 	
 	public Config_Reader() throws Throwable {
 		
-		File f = new File("C:\\Users\\lenovo\\eclipse-workspace\\Adactin_Prct\\src\\test\\java\\com\\adactin\\config\\Config.properties");
+		File f = new File("C:\\Users\\sudha\\eclipse-workspace\\Adactin_Prct\\src\\test\\java\\com\\adactin\\config\\Config.properties");
 		FileInputStream fis = new FileInputStream(f);
 	  pro = new Properties();
 	  pro.load(fis);

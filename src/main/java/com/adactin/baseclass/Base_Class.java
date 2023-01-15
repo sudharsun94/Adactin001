@@ -151,7 +151,7 @@ public class Base_Class {
 	public static void screenShot() throws IOException {
 		TakesScreenshot ab = (TakesScreenshot) driver;
 		File srcfile = ab.getScreenshotAs(OutputType.FILE);
-		File desfile = new File("C:\\Users\\lenovo\\eclipse-workspace\\Adactin_Mini\\Screenshot\\Adctin_Mini.png");
+		File desfile = new File("C:\\Users\\sudha\\eclipse-workspace\\Adactin_Prct\\Screenshots\\AdctnPrjt.png");
 		FileUtils.copyFile(srcfile, desfile);
 	}
 
